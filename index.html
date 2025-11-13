@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resep Makanan Tradisional Indonesia — lengkap</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>Rumah Cita Rasa Nusantara</h1>
+    <p>Resep tradisional lengkap — klik foto untuk lihat bahan & langkah</p>
+  </header>
+
+  <main class="content" id="resep">
+    <h2>Resep Makanan Tradisional Indonesia </h2>
+
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Cari resep... (mis. rendang, soto, pempek)" />
+    </div>
+
+    <section class="gallery" id="gallery">
+      <img src="pictures/nasgor2.jpg" alt="Nasi Goreng" data-name="nasgor">
+      <img src="pictures/rendang.jpg" alt="Rendang" data-name="rendang">
+      <img src="pictures/soto ayam.jpg" alt="Soto Lamongan" data-name="soto">
+      <img src="pictures/sate.jpg" alt="Sate Ayam Madura" data-name="sate">
+      <img src="pictures/gado-gado.jpeg" alt="Gado-Gado" data-name="gado">
+      <img src="pictures/pmpm.jpg" alt="Pempek" data-name="pempek">
+      <img src="pictures/mie aceh.jpg" alt="Mie Aceh" data-name="mie">
+      <img src="pictures/cilog.jpg" alt="Cilok" data-name="cilok">
+      <img src="pictures/pespes.jpg" alt="Pepes Ikan" data-name="pepes">
+      <img src="pictures/batagor.jpg" alt="Batagor" data-name="batagor">
+      <img src="pictures/ayam betutu.jpg" alt="Ayam Betutu" data-name="betutu">
+      <img src="pictures/gudeg.jpg" alt="Gudeg Jogja" data-name="gudeg">
+      <img src="pictures/rawon.jpg" alt="Rawon Surabaya" data-name="rawon">
+      <img src="pictures/sup konro.jpg" alt="Sup Konro" data-name="konro">
+      <img src="pictures/ayam taliwang.jpg" alt="Ayam Taliwang Lombok" data-name="taliwang">
+      <img src="pictures/ikan jimbaran.jpg" alt="Ikan Bakat Jimbaran Khas Bali" data-name="jimbaran">
+      <img src="pictures/cireng.jpg" alt="Cireng Bandung" data-name="cireng">
+      <img src="pictures/klepon.jpg" alt="Klepon" data-name="klepon">
+      <img src="pictures/pisang epe.jpeg" alt="Pisang Epe" data-name="epe">
+      <img src="pictures/serabii solo.jpg" alt="Serabi Solo" data-name="serabi">
+      <img src="pictures/tongseng kambing.jpg" alt="Tongseng Kambing" data-name="tongseng">
+    </section>
+  </main>
+
+  <div id="popup" class="popup hidden" role="dialog" aria-hidden="true">
+    <div class="popup-content">
+      <button class="popup-close" aria-label="Tutup">&times;</button>
+      <div id="popup-body"></div>
+      <div class="popup-actions">
+        <button id="popup-close-btn" class="close-btn">Tutup</button>
+      </div>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
